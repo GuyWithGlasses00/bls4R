@@ -1,0 +1,88 @@
+item_code,item_name
+CUUR0000SA0,All Items
+CUUR0000SA0E,Energy
+CUUR0000SAA,Apparel
+CUUR0000SAC,Commodities
+CUUR0000SAD,Durables
+CUUR0000SAE,Education
+CUUR0000SAF,Food and beverages
+CUUR0000SAG,Other goods and services
+CUUR0000SAH,Housing
+CUUR0000SAM,Medical care
+CUUR0000SAN,Nondurables
+CUUR0000SAR,Recreation
+CUUR0000SAS,Services
+CUUR0000SAT,Transportation
+CUUR0000SETA,New and used motor vehicles
+CUUR0000SETA01,New vehicles
+CUUR0000SS45011,New cars
+CUUR0000SS4501A,New cars and trucks
+CUUR0000SS45021,New trucks
+CUUR0000SS45031,New motorcycles
+CUUR0000SETA02,Used cars and trucks
+CUUR0000SETA03,Leased cars and trucks
+CUUR0000SETA04,Car and truck rental
+CUUR0000SETC,Motor vehicle parts and equipment
+CUUR0000SS48021,Vehicle parts and equipment other than tires
+CUUR0000SETD,Motor vehicle maintenance and repairs
+CUUR0000SETD01,Motor vehicle body work
+CUUR0000SETD02,Motor vehicle maintenance and servicing
+CUUR0000SETD03,Motor vehicle repair
+CUUR0000SETE,Motor vehicle insurance
+CUUR0000SETF,Motor vehicle fees
+CUUR0000SETF01,State motor vehicle registration and license fees
+CUUR0000SETF03,Parking and other fees
+CUUR0000SETG,Public transportation
+CUUR0000SETG01,Airline fares
+CUUR0000SETG02,Other intercity transportation
+CUUR0000SETG03,Intracity transportation
+PCU211---211---,Oil and gas extraction
+PCU221---221---,Utilities
+PCU221122221122,Electric power distribution
+PCU221210221210,Natural gas distribution
+PCU236211236211,New industrial building construction
+PCU236221236221,New warehouse building construction
+PCU236222236222,New school building construction
+PCU236223236223,New office building construction
+PCU236224236224,New health care building construction
+PCU311---311---,Food manufacturing
+PCU315---315---,Apparel manufacturing
+PCU321---321---,Wood product manufacturing
+PCU322---322---,Paper manufacturing
+PCU323---323---,Printing and related support activities
+PCU324---324---,Petroleum and coal products manufacturing
+PCU325---325---,Chemical manufacturing
+PCU3254--3254--,Pharmaceutical and medicine manufacturing
+PCU326---326---,Plastics and rubber products manufacturing
+PCU3261--3261--,Plastics manufacturing
+PCU3262--3262--,Rubber product manufacturing
+PCU327---327---,Nonmetallic mineral product manufacturing
+PCU3272--3272--,Glass and glass product manufacturing
+PCU3273--3273--,Cement and concrete product manufacturing
+PCU331---331---,Primary metal manufacturing
+PCU332---332---,Fabricated metal product manufacturing
+PCU333---333---,Machinery manufacturing
+PCU33311-33311-,Agricultural implement manufacturin
+PCU33312-33312-,Construction machinery manufacturing
+PCU33313-33313-,Mining and oil and gas field machinery manufacturing
+PCU3332--3332--,Industrial machinery manufacturing
+PCU3333--3333--,Commercial and service industry machinery manufacturing
+PCU3334--3334--,HVAC and commercial refrigeration equipment
+PCU3335--3335--,Metalworking machinery manufacturing
+PCU3336--3336--,Turbine and power transmission equipment manufacturing
+PCU3339--3339--,Other general purpose machinery manufacturing
+PCU333924333924,Industrial truck/trailer//stacker manufacturing
+PCU334---334---,Computer & electronic product manufacturing
+PCU335---335---,Electrical equipment and appliance manufacturing
+PCU336---336---,Transportation equipment manufacturing
+PCU3361--3361--,Motor vehicle manufacturing
+PCU33611-33611-,Automobile and light truck manufacturing
+PCU33612-33612-,Heavy duty truck manufacturing
+PCU336212336212,Truck trailer manufacturing
+PCU3363--3363--,Motor vehicle parts manufacturing
+PCU3364--3364--,Aerospace product and parts manufacturing
+PCU3365--3365--,Railroad rolling stock manufacturing
+PCU3366--3366--,Ship and boat building
+PCU337---337---,Furniture & related product manufacturing
+PCU3391--3391--,Medical equipment & supplies manufacturing
+PCU5411--5411--,Legal services
