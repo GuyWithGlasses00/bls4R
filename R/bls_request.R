@@ -19,8 +19,16 @@ bls_request <- function(
     base::stop("Error! API request failed!")
   }
 
+  # Extract request content
+  data <- httr::content(request)
+
+  # Check request reutrn status
+  if (data$status == "REQUEST_NOT_PROCESSED") {
+    base::stop(data$message[[1]])
+  }
+
   # Unpack to data element
-  data <- httr::content(request)$Results$series[[1]]$data
+  data <- data$Results$series[[1]]$data
 
   # Return data element
   return(data)
