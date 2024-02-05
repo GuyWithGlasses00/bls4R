@@ -1,3 +1,6 @@
+# Load BLS object
+base::file.path("data", "BLS.rda") |> base::load()
+
 #' Build BLS API request
 #'
 #' This function returns a formatted url to send an API request

@@ -1,3 +1,6 @@
+# Load BLS object
+base::file.path("data", "BLS.rda") |> base::load()
+
 #' Request BLS indices
 #'
 #' This function returns a number of specified series from the BLS as a
