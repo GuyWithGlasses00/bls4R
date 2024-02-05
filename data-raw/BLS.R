@@ -10,5 +10,8 @@ BLS$cpi <- "CUUR0000SA0"
 # Add ECI Series ID
 BLS$eci <- "CIS1010000000000I"
 
+# Initialize BLS key
+BLS$key <- NA
+
 # Save object
 usethis::use_data(BLS, overwrite = TRUE)

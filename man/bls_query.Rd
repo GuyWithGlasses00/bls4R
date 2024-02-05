@@ -4,16 +4,16 @@
 \alias{bls_query}
 \title{Build BLS API request}
 \usage{
-bls_query(series, start_year, end_year, url_ = BLS$url)
+bls_query(BLS, series, start_year, end_year)
 }
 \arguments{
+\item{BLS}{\code{bls4R::BLS}; initialized with API key}
+
 \item{series}{\code{base::character}; the series id corresponding with the BLS coding}
 
 \item{start_year}{\code{base::integer}; the starting year (inclusive) to return BLS indices for}
 
 \item{end_year}{\code{base::integer}; the ending year (inclusive) to return BLS indices for}
-
-\item{url}{\code{base::character}; the url for the BLS api}
 }
 \value{
 A \code{data.table::data.table()} containing 3 columns: \code{year}, \code{month}, and \code{index}

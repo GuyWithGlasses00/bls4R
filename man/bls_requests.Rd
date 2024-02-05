@@ -4,16 +4,16 @@
 \alias{bls_requests}
 \title{Request BLS indices}
 \usage{
-bls_requests(series, start_year, end_year, url_ = BLS$url)
+bls_requests(BLS, series, start_year, end_year)
 }
 \arguments{
+\item{BLS}{\code{bls4R::BLS}; BLS object containing API key}
+
 \item{series}{\code{base::vector}; a vector of series id's corresponding with the BLS coding}
 
 \item{start_year}{\code{base::integer}; the starting year (inclusive) to return BLS indices for}
 
 \item{end_year}{\code{base::integer}; the ending year (inclusive) to return BLS indices for}
-
-\item{url_}{\code{base::character}; the url for the BLS api}
 }
 \value{
 A \code{data.table::data.table()} containing 4 columns: \code{year}, \code{month}, \code{index}, and \code{series_id}
@@ -21,6 +21,15 @@ A \code{data.table::data.table()} containing 4 columns: \code{year}, \code{month
 \description{
 This function returns a number of specified series from the BLS as a
 \code{data.table::data.table()} with \code{year}, \code{month}, \code{index}, and \code{series_id}.
+}
+\examples{
+# Initialize BLS Object
+BLS <- bls4R::bls_create()
+# Set API key
+BLS <- bls4R::bls_set_key(key="YOUR_API_KEY")
+# Send request to BLS
+data <- bls4R::bls_requests(BLS=BLS,series="BLS_SERIES_ID",start_year=2000,end_year=2023)
+
 }
 \author{
 Issaac Hansen
